@@ -70,12 +70,6 @@ $parameters = @{
 Start-BitsTransfer @parameters
 ```
 
-3. To install Windows Admin Center, run:
-
-```powershell
-Start-Process -FilePath '.\WindowsAdminCenter.exe' -ArgumentList '/VERYSILENT' -Wait
-```
-
 4. You may also need to start the Windows Admin Center service:
 
 ```powershell
